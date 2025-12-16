@@ -5,3 +5,17 @@ https://doi.org/10.1145/3579142.3594298
 This repository contains quantum and classical algorithms to solve the join ordering problem in DBMS. 
 It includes an experimental dataset, method implementation, and solving join ordering using both classical heuristics and quantum variational algorithms.
 
+## 📌 Overview
+
+Join order optimization is a core challenge in database management systems (DBMS), especially when considering bushy join trees, which significantly expand the search space compared to left-deep trees.
+
+This work formulates the bushy join tree optimization problem as a Quadratic Unconstrained Binary Optimization (QUBO) problem and explores solving it using:
+
+- Quantum algorithms (QAOA, VQE) on gate-based quantum simulators
+- Execution on real quantum hardware using Quantum Annealing
+- Classical baseline approaches for comparison, like Dynamic Programming
+
+The goal is to demonstrate how quantum algorithms such as QAOA, VQE and Quantum Annealing can be applied to a fundamental DBMS optimization problem.
+
+---
+
