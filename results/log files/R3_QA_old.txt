@@ -1,0 +1,58 @@
+# circuits,pitstops,races ; 698440,9190,9190,1079
+circuits,pitstops,races;327;-2783491.0;Valid;Optimal;['pitstops', ['circuits', 'races']];[['circuits', 'races'], ['circuits', 'pitstops', 'races']]
+circuits,pitstops,races;384;-2783491.0;Valid;Optimal;['circuits', ['pitstops', 'races']];[['pitstops', 'races'], ['circuits', 'pitstops', 'races']]
+circuits,pitstops,races;288;-2774301.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['pitstops', 'races'], ['circuits', 'pitstops', 'races']]
+circuits,pitstops,races;1;-2085051.0;Invalid;Not Optimal;[];[['circuits', 'pitstops'], ['circuits', 'races'], ['circuits', 'pitstops', 'races']]
+# circuits,qualifying,races ; 709460,9335,9335,1079
+circuits,qualifying,races;331;-2827426.0;Valid;Optimal;['circuits', ['qualifying', 'races']];[['qualifying', 'races'], ['circuits', 'qualifying', 'races']]
+circuits,qualifying,races;399;-2827426.0;Valid;Optimal;['qualifying', ['circuits', 'races']];[['circuits', 'races'], ['circuits', 'qualifying', 'races']]
+circuits,qualifying,races;270;-2818091.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['qualifying', 'races'], ['circuits', 'qualifying', 'races']]
+# circuits,races,seasons ; 1079,1079,1079,5548
+circuits,races,seasons;275;-15565.0;Valid;Optimal;['seasons', ['circuits', 'races']];[['circuits', 'races'], ['circuits', 'races', 'seasons']]
+circuits,races,seasons;413;-15565.0;Valid;Optimal;['races', ['circuits', 'seasons']];[['circuits', 'seasons'], ['circuits', 'races', 'seasons']]
+circuits,races,seasons;219;-15565.0;Valid;Optimal;['circuits', ['races', 'seasons']];[['races', 'seasons'], ['circuits', 'races', 'seasons']]
+circuits,races,seasons;35;-14486.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['circuits', 'seasons'], ['circuits', 'races', 'seasons']]
+circuits,races,seasons;28;-14486.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['races', 'seasons'], ['circuits', 'races', 'seasons']]
+circuits,races,seasons;30;-14486.0;Invalid;Not Optimal;[];[['circuits', 'seasons'], ['races', 'seasons'], ['circuits', 'races', 'seasons']]
+# circuits,races,results ; 1079,25579,25579,1944004
+circuits,races,results;224;-5830933.0;Valid;Optimal;['results', ['circuits', 'races']];[['circuits', 'races'], ['circuits', 'races', 'results']]
+circuits,races,results;177;-5806433.0;Valid;Not Optimal;['circuits', ['races', 'results']];[['races', 'results'], ['circuits', 'races', 'results']]
+circuits,races,results;154;-5806433.0;Valid;Not Optimal;['races', ['circuits', 'results']];[['circuits', 'results'], ['circuits', 'races', 'results']]
+circuits,races,results;182;-5805354.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['circuits', 'results'], ['circuits', 'races', 'results']]
+circuits,races,results;151;-5805354.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['races', 'results'], ['circuits', 'races', 'results']]
+circuits,races,results;112;-5780854.0;Invalid;Not Optimal;[];[['circuits', 'results'], ['races', 'results'], ['circuits', 'races', 'results']]
+# circuits,driverstandings,races ; 2555348,33623,33623,1079
+circuits,driverstandings,races;399;-10186690.0;Valid;Optimal;['driverstandings', ['circuits', 'races']];[['circuits', 'races'], ['circuits', 'driverstandings', 'races']]
+circuits,driverstandings,races;331;-10186690.0;Valid;Optimal;['circuits', ['driverstandings', 'races']];[['driverstandings', 'races'], ['circuits', 'driverstandings', 'races']]
+circuits,driverstandings,races;269;-10153067.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['driverstandings', 'races'], ['circuits', 'driverstandings', 'races']]
+circuits,driverstandings,races;1;-7631342.0;Invalid;Not Optimal;[];[['circuits', 'driverstandings'], ['circuits', 'races'], ['circuits', 'driverstandings', 'races']]
+# circuits,laptimes,races ; 39909652,525127,525127,1079
+circuits,laptimes,races;276;-159112402.0;Valid;Optimal;['laptimes', ['circuits', 'races']];[['circuits', 'races'], ['circuits', 'laptimes', 'races']]
+circuits,laptimes,races;430;-159112402.0;Valid;Optimal;['circuits', ['laptimes', 'races']];[['laptimes', 'races'], ['circuits', 'laptimes', 'races']]
+circuits,laptimes,races;293;-158587275.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['laptimes', 'races'], ['circuits', 'laptimes', 'races']]
+circuits,laptimes,races;1;-119202750.0;Invalid;Not Optimal;[];[['circuits', 'laptimes'], ['laptimes', 'races'], ['circuits', 'laptimes', 'races']]
+# circuits,constructorstandings,races ; 973636,12811,12811,1079
+circuits,constructorstandings,races;366;-3880654.0;Valid;Optimal;['circuits', ['constructorstandings', 'races']];[['constructorstandings', 'races'], ['circuits', 'constructorstandings', 'races']]
+circuits,constructorstandings,races;369;-3880654.0;Valid;Optimal;['constructorstandings', ['circuits', 'races']];[['circuits', 'races'], ['circuits', 'constructorstandings', 'races']]
+circuits,constructorstandings,races;263;-3867843.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['constructorstandings', 'races'], ['circuits', 'constructorstandings', 'races']]
+circuits,constructorstandings,races;1;-2919829.0;Valid;Not Optimal;['races', ['circuits', 'constructorstandings']];[['circuits', 'constructorstandings'], ['circuits', 'constructorstandings', 'races']]
+circuits,constructorstandings,races;1;-2907018.0;Invalid;Not Optimal;[];[['circuits', 'constructorstandings'], ['circuits', 'races'], ['circuits', 'constructorstandings', 'races']]
+# circuits,constructorresults,races ; 915800,12050,12050,1079
+circuits,constructorresults,races;402;-3650071.0;Valid;Optimal;['constructorresults', ['circuits', 'races']];[['circuits', 'races'], ['circuits', 'constructorresults', 'races']]
+circuits,constructorresults,races;327;-3650071.0;Valid;Optimal;['circuits', ['constructorresults', 'races']];[['constructorresults', 'races'], ['circuits', 'constructorresults', 'races']]
+circuits,constructorresults,races;270;-3638021.0;Invalid;Not Optimal;[];[['circuits', 'races'], ['constructorresults', 'races'], ['circuits', 'constructorresults', 'races']]
+circuits,constructorresults,races;1;-2746321.0;Valid;Not Optimal;['races', ['circuits', 'constructorresults']];[['circuits', 'constructorresults'], ['circuits', 'constructorresults', 'races']]
+# constructorresults,constructors,constructorstandings ; 12050,12811,4315024,4315024
+constructorresults,constructors,constructorstandings;375;-12933022.0;Valid;Optimal;['constructorstandings', ['constructorresults', 'constructors']];[['constructorresults', 'constructors'], ['constructorresults', 'constructors', 'constructorstandings']]
+constructorresults,constructors,constructorstandings;286;-12932261.0;Valid;Not Optimal;['constructors', ['constructorresults', 'constructorstandings']];[['constructorresults', 'constructorstandings'], ['constructorresults', 'constructors', 'constructorstandings']]
+constructorresults,constructors,constructorstandings;338;-12920211.0;Invalid;Not Optimal;[];[['constructorresults', 'constructors'], ['constructorresults', 'constructorstandings'], ['constructorresults', 'constructors', 'constructorstandings']]
+constructorresults,constructors,constructorstandings;1;-8617998.0;Invalid;Not Optimal;[];[['constructorresults', 'constructors']]
+# constructorresults,constructors,qualifying ; 12050,9335,3810974,3810974
+constructorresults,constructors,qualifying;346;-11423587.0;Valid;Optimal;['constructors', ['constructorresults', 'qualifying']];[['constructorresults', 'qualifying'], ['constructorresults', 'constructors', 'qualifying']]
+constructorresults,constructors,qualifying;324;-11420872.0;Valid;Not Optimal;['qualifying', ['constructorresults', 'constructors']];[['constructorresults', 'constructors'], ['constructorresults', 'constructors', 'qualifying']]
+constructorresults,constructors,qualifying;330;-11411537.0;Invalid;Not Optimal;[];[['constructorresults', 'constructors'], ['constructorresults', 'qualifying'], ['constructorresults', 'constructors', 'qualifying']]
+# constructorresults,constructors,races ; 12050,227669,12050,12050
+constructorresults,constructors,races;389;-886576.0;Valid;Optimal;['races', ['constructorresults', 'constructors']];[['constructorresults', 'constructors'], ['constructorresults', 'constructors', 'races']]
+constructorresults,constructors,races;367;-886576.0;Valid;Optimal;['constructorresults', ['constructors', 'races']];[['constructors', 'races'], ['constructorresults', 'constructors', 'races']]
+constructorresults,constructors,races;243;-874526.0;Invalid;Not Optimal;[];[['constructorresults', 'constructors'], ['constructors', 'races'], ['constructorresults', 'constructors', 'races']]
+constructorresults,constructors,races;1;-443288.0;Invalid;Not Optimal;[];[['constructors', 'races']]
