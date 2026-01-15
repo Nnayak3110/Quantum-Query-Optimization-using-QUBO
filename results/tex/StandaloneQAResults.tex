@@ -1,0 +1,43 @@
+\documentclass[border=0pt]{standalone}
+\usepackage[sfdefault]{roboto}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.7}
+\usepackage{tikz}
+\usepgfplotslibrary{fillbetween}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\begin{tikzpicture}
+    \begin{axis}[
+        xtick=data,
+        xmax=8.5,
+        extra x ticks={8},
+        xlabel={Number of Relations},
+        ylabel={$\frac{\mbox{optimal shots}}{\mbox{total shots}}$},
+        axis background/.style = {fill=white},
+        tick align = outside,
+        legend style={at={(0.98,0.98)}}]
+
+% drawing min/max area for annealer
+        \addplot[forget plot,green!30,name path = min_anneal,draw=none,mark=star] table[x=relations, y=e_min_optimal, col sep=comma] {Dsampler.csv};
+        \addplot[forget plot,green!30,name path = max_anneal,draw=none,mark=star,smooth] table[x=relations, y=e_max_optimal, col sep=comma] {Dsampler.csv};
+
+% drawing min/max area for simulator        
+        \addplot[forget plot,blue!30,name path = min_sim,draw=none,mark=star] table[x=relations, y=e_min_optimal, col sep=comma] {DSA.csv};
+        \addplot[forget plot,blue!30,name path = max_sim,draw=none,mark=star] table[x=relations, y=e_max_optimal, col sep=comma] {DSA.csv};
+        \addplot [forget plot,blue,opacity=0.1] fill between [of = min_sim and max_sim];
+
+% Drawing mean of annealer/simulator
+        \addplot [forget plot,green,opacity=0.1] fill between [of = min_anneal and max_anneal];        \addplot[green,mark=*] table[x=relations, y=e_mean_optimal, col sep=comma] {Dsampler.csv};  \addlegendentry {Annealer}
+        \addplot[blue,mark=*] table[x=relations, y=e_mean_optimal, col sep=comma] {DSA.csv};
+       \addlegendentry{Simulator}     
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}

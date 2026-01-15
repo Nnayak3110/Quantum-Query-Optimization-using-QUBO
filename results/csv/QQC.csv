@@ -1,0 +1,3 @@
+relations,optimizer,#queries,perc_optimal
+3,COBYLA,66,100.0
+4,COBYLA,185,98.37837837837837
